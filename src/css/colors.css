@@ -1,0 +1,9 @@
+:root {
+    --jjakee-cyan: #3c4040;
+}
+
+
+/*  EX:                                     */
+/*  .introduction p {                       */
+/*      color: var(--jjakee-cyan);          */
+/*  }                                       */                         
