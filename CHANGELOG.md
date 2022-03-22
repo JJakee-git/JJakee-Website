@@ -1,20 +1,14 @@
 # Changelog
 
-## v1.0.0
+## v1.0.1
 ## 3/21/2022
 
 ### Added or Changed
-- Created Project
-- Added changelog
-- fonts
-- logos
-- title on index
-- basic css styling
-- organized many things
+- added js folder and file for github
 
 ### Removed
 
-- Some packages/libraries from acknowledgements I no longer use
+- N/A
 
 
 ### Goals
