@@ -1,20 +1,84 @@
 
+* {
+    box-sizing: boarder-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--jjakee-cyan);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
 
 
 .introduction {
     margin-top: 1;
     margin-bottom: 1;
     font-family: 'GothamBook';
-    color: var(--jjakee-cyan);
+    color: #fff;
+    opacity: 80%;
     font-size: 2em;
     line-height: 2.1em;
     
 
 }
 
+li, a, button {
+    font-family: 'GothamBold';
+    font-size: 16px;
+    color: #EAEAEA;
+    opacity: 90%;
+    text-decoration: none;
+}
 
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 126, 145, 145);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
 
+button:hover {
+    background-color: rgba(0.8, 126, 145, 145);
+    opacity: 100%;
 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    opacity: 100%;
+    color: #fff;
+}
 
 
 @font-face {
@@ -30,4 +94,25 @@
 @font-face {
     font-family: 'GothamItalic';
     src: url(../../assets/fonts/GothamBookItalic.ttf);
+}
+
+
+:root {
+    --charleston-green: #262b2cff;
+    --jjakee-cyan: #3c4040;
+    --morning-blue: #7e9191;
+    --white-blue: #c8d6dbff;
+    --light-gray: #a0aab2ff;
+    --lavender: #94849bff;
+
+    --gradient-top: linear-gradient(0deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-right: linear-gradient(90deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-bottom: linear-gradient(180deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-left: linear-gradient(270deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-top-right: linear-gradient(45deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-bottom-right: linear-gradient(135deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-top-left: linear-gradient(225deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-bottom-left: linear-gradient(315deg, #262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+    --gradient-radial: radial-gradient(#262b2cff, #7e9191ff, #c8d6dbff, #a0aab2ff, #94849bff);
+
 }
