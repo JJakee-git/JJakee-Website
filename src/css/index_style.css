@@ -4,15 +4,25 @@
     margin: 0;
     padding: 0;
     background-color: var(--jjakee-cyan);
+    margin: 0px;
+}
+
+.logo {
+    width: 100px;
+    opacity: 90%;
+}
+
+.logo:hover {
+    width: 100px;
+    opacity: 100%;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 2%;
 }
-
 
 .introduction {
     margin-top: 1;
@@ -22,63 +32,35 @@
     opacity: 80%;
     font-size: 2em;
     line-height: 2.1em;
-    
-
 }
 
-li, a, button {
-    font-family: 'GothamBold';
-    font-size: 16px;
-    color: #EAEAEA;
+.navigation_buttons {
+    color: #efefef;
     opacity: 90%;
+}
+
+.navigation_buttons:hover {
+    opacity: 100%;
+    color: #ffffff;
+}
+
+.navigation li {
+    font-family: 'GothamBook';
+    list-style-type: none;
+    float: left;
+    font-size: 20px;
+    width: 5em;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+a {
     text-decoration: none;
+    color: inherit;
 }
 
-button {
-    padding: 9px 25px;
-    background-color: rgba(0, 126, 145, 145);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
-}
 
-button:hover {
-    background-color: rgba(0.8, 126, 145, 145);
-    opacity: 100%;
-
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-.logo {
-    cursor: pointer;
-    opacity: 90%;
-}
-
-.navbar {
-    list-style: none;
-}
-
-.navbar li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.navbar li a {
-    transition: all 0.3s ease 0s;
-}
-
-.navbar li a:hover {
-    opacity: 100%;
-    color: #fff;
-}
 
 
 @font-face {

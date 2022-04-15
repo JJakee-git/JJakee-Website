@@ -1,0 +1,61 @@
+* {
+    background-color: var(--jjakee-cyan);
+    color: #efefef;
+}
+
+.caution-top {
+    margin-top: -15px;
+    margin-left: -1px;
+    width: 100%;
+}
+
+.oops {
+    width: 20%;
+    margin: auto;
+    display: block;
+    margin-top: 7%;
+}
+
+.text {
+    font-size: 250%;
+    font-family: 'GothamBook';
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.bold {
+    font-family: 'GothamBold';
+}
+
+.caution-bottom {
+    position:fixed;
+    width: 100%;
+    bottom: 0%;
+    margin-left: -1%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url(../../assets/fonts/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url(../../assets/fonts/GothamBold.ttf);
+}
+
+:root {
+    --charleston-green: #262b2cff;
+    --jjakee-cyan: #3c4040;
+    --morning-blue: #7e9191;
+    --white-blue: #c8d6dbff;
+    --light-gray: #a0aab2ff;
+    --lavender: #94849bff;
+}
